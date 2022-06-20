@@ -3,7 +3,7 @@ public class reducestring {
         String input = "Jefferson"; // input string
         String firstFourChars = ""; // substring containing first 4 characters
 
-        if (input.length() > 1) {
+        if (input.length() > 1) {// change value 1 to any other number of first characters
             firstFourChars = input.substring(0, 1);
         } else {
             firstFourChars = input;
